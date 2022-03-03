@@ -5,4 +5,4 @@ const sayHello = (msg) => {
 const oo = () => {
   alert("oo");
 };
-export default sayHello;
+export { sayHello };
