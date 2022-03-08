@@ -8,6 +8,4 @@ sayHello("hhh");
 const a = function () {
   sayHello("asd");
 };
-export default {
-  a,
-};
+export { a };

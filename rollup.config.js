@@ -17,7 +17,7 @@ export default [
       json(),
       nodeResolve(),
     ],
-    // external: ["lodash"],
+    external: ["lodash"],
   },
   {
     input: "src/main.js",
@@ -27,9 +27,9 @@ export default [
       name: "bundleName",
     },
     plugins: [
-      // babel({
-      //   exclude: "node_modules",
-      // }),
+      babel({
+        exclude: "node_modules",
+      }),
       json(),
       nodeResolve(),
     ],
